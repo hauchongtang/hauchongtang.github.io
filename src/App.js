@@ -13,9 +13,8 @@ export default function App() {
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + "/blog"} component={Blogs} />
         <Route exact path={process.env.PUBLIC_URL + "/"} component={HomePage} />
-        <Route exact path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
+        <Route path={process.env.PUBLIC_URL + "/:id"} component={Projects} />
       </Switch>
-
     </>
   )
 }
