@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
@@ -10,12 +10,13 @@ import Blogs from './components/Blogs'
 export default function App() {
   return (
     <>
-      <Switch>
-        <Route exact path="/blog" component={Blogs} />
-        <Route exact path="/portfolio-webpage" component={HomePage} />
-        <Route path="/:id" component={Projects} />
-      </Switch>
-
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Switch>
+          <Route exact path="/blog" component={Blogs} />
+          <Route exact path="/portfolio-webpage" component={HomePage} />
+          <Route path="/:id" component={Projects} />
+        </Switch>
+      </BrowserRouter>
     </>
   )
 }
