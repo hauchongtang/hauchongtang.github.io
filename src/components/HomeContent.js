@@ -34,7 +34,7 @@ const HomeContent = () => {
         <Jumbotron>
           <h4>Currently I am ...</h4>
           <p className="lead">
-            Learning <a href='https://reactjs.org/'>React</a> and improving on my <a href='/projects'>projects</a>
+            Learning <a href='https://reactjs.org/'>React</a> and improving on my <a href='/portfolio-webpage/#//projects'>projects</a>
           </p>
           <p className="lead">
             Watching videos on the tube ▶️
