@@ -11,9 +11,9 @@ export default function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/portfolio-webpage/blog" component={Blogs} />
-        <Route exact path="/portfolio-webpage" component={HomePage} />
-        <Route exact path="/portfolio-webpage/projects" component={Projects} />
+        <Route exact path={process.env.PUBLIC_URL + "/blog"} component={Blogs} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} component={HomePage} />
+        <Route exact path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
       </Switch>
 
     </>
