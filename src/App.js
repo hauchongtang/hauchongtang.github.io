@@ -13,7 +13,7 @@ export default function App() {
       <Switch>
         <Route exact path="/portfolio-webpage/blog" component={Blogs} />
         <Route exact path="/portfolio-webpage" component={HomePage} />
-        <Route path="/portfolio-webpage/:id" component={Projects} />
+        <Route exact path="/portfolio-webpage/projects" component={Projects} />
       </Switch>
 
     </>
