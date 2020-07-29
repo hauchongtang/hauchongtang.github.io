@@ -11,10 +11,11 @@ export default function App() {
   return (
     <>
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + "/blog"} component={Blogs} />
-        <Route exact path={process.env.PUBLIC_URL + "/"} component={HomePage} />
-        <Route path={process.env.PUBLIC_URL + "/:id"} component={Projects} />
+        <Route exact path="/blog" component={Blogs} />
+        <Route exact path="/portfolio-webpage" component={HomePage} />
+        <Route path="/:id" component={Projects} />
       </Switch>
+
     </>
   )
 }
