@@ -11,9 +11,9 @@ export default function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/blog" component={Blogs} />
+        <Route exact path="/portfolio-webpage/blog" component={Blogs} />
         <Route exact path="/portfolio-webpage" component={HomePage} />
-        <Route path="/:id" component={Projects} />
+        <Route path="/portfolio-webpage/:id" component={Projects} />
       </Switch>
 
     </>
