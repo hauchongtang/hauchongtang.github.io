@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,iBACF,CAEA,WACE,eAAmB,CACnB,qBACF,CAEA,GACE,gBACF","file":"main.8935a7e1.chunk.css","sourcesContent":["body {\r\n  text-align: center;\r\n}\r\n\r\n.jumbotron {\r\n  margin-bottom: 0rem;\r\n  background-color: white;\r\n}\r\n\r\nh4 {\r\n  padding-top: 1rem;\r\n}"]}
