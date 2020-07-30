@@ -29,12 +29,12 @@ const HomeContent = () => {
         <Fade in={fadeIn} tag="p">
           <p>I am a Software Developer from Singapore 🇸🇬 and I am an A Level grad.</p>
           <p>I am currently learning Full Stack Web Development and exploring new technologies.</p>
-          <p>Feel free to take a look at my <a href='/projects'>projects</a></p>
+          <p>Feel free to take a look at my <a href='#/projects'>projects</a></p>
         </Fade>
         <Jumbotron>
           <h4>Currently I am ...</h4>
           <p className="lead">
-            Learning <a href='https://reactjs.org/'>React</a> and improving on my <a href='/portfolio-webpage/#//projects'>projects</a>
+            Learning <a href='https://reactjs.org/'>React</a> and improving on my <a href='#/projects'>projects</a>
           </p>
           <p className="lead">
             Watching videos on the tube ▶️
@@ -42,7 +42,7 @@ const HomeContent = () => {
           <h4>Find Me @</h4>
           <p className='lead'>
             <a href='https://github.com/thchong-code/'>Github</a>&nbsp;&nbsp;
-            <a href='https://discord.com/channels/@me'>Discord</a>
+            <a href='mailto:hchtang2000@gmail.com'>Gmail</a>
           </p>
         </Jumbotron>
       </div>

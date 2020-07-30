@@ -7,6 +7,7 @@ export default function Blogs() {
       <Navbar />
       <h1>My Blog</h1>
       <p>Nothing here yet...</p>
+      <a href='#/portfolio-webpage'>Home</a>
     </div>
   )
 }

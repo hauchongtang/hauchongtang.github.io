@@ -97,6 +97,7 @@ export default function Projects() {
       <Jumbotron>
         <h6>The repository for this webpage can be found <a href='https://github.com/thchong-code/portfolio-webpage/'>here</a></h6>
       </Jumbotron>
+      <a href='#/portfolio-webpage'>Home</a>
     </div>
   )
 }
