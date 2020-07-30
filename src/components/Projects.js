@@ -94,7 +94,7 @@ export default function Projects() {
           </Card>
         </CardGroup>
         <p className='lead'>
-          The repository for this webpage can be found <a class="link hover-2" href='https://github.com/thchong-code/portfolio-webpage/'>here</a>
+          Created with Reactjs. The repository for this webpage can be found <a class="link hover-2" href='https://github.com/thchong-code/portfolio-webpage/'>here</a>
         </p>
         <p className='lead'>
           <a class="link hover-2" href='#/portfolio-webpage'>Home</a>
