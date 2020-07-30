@@ -6,13 +6,9 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  NavLink
 } from 'reactstrap';
+import DarkModeToggle from './DarkModeToggle'
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,21 +18,24 @@ const Example = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="#/portfolio-webpage">H.C</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink href="#/blog">Blog</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#/projects">Projects</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/thchong-code">GitHub</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
+        <div className='container'>
+          <NavbarBrand href="#/portfolio-webpage">H.C</NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="#/blog">Blog</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#/projects">Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/thchong-code">GitHub</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </div>
+        <DarkModeToggle />
       </Navbar>
     </div>
   );

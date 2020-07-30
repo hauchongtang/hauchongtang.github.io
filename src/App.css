@@ -1,12 +1,104 @@
-body {
-  text-align: center;
+html {
+  overflow-y: scroll;
 }
 
-.jumbotron {
-  margin-bottom: 0rem;
-  background-color: white;
+body.light-mode {
+  text-align: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease
+}
+
+body.dark-mode {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  transition: background-color 0.3s ease
+}
+
+body.dark-mode #container {
+  color: #474747;
+}
+
+.dark-mode {
+  background-color: #474747;
+}
+
+body.dark-mode nav.navbar.navbar-expand-md.navbar-light.bg-light {
+  background-color: #474747!important;
+  color: white!important;
+  transition: background-color 0.3s ease
+}
+
+body.light-mode nav.navbar.navbar-expand-md.navbar-light.bg-light {
+  transition: background-color 0.3s ease
+}
+
+body.dark-mode .navbar-light .navbar-brand {
+  color: white!important
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+  color: white!important
+}
+
+body.dark-mode .card-body {
+  background-color: #474747;
+  transition: background-color 0.3s ease
+}
+
+body.light-mode .card-body {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease
+}
+
+body.dark-mode .card {
+  border: 1px solid #f8f9fa;
+}
+
+body.light-mode .card {
+  border: 1px solid #474747;
 }
 
 h4 {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+h1 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+p#content.lead {
+  text-align: match-parent;
+}
+
+:root {
+  --mainColor: blue;
+}
+
+a.hover-2 {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  transition: background-size .5s;
+}
+
+body.light-mode a {
+  color: black;
+}
+
+body.dark-mode a {
+  color: white;
+}
+
+a.hover-2:hover {
+  background-size: 2px 50px;
 }
