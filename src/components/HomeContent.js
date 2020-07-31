@@ -27,12 +27,12 @@ const HomeContent = () => {
         <Button color="link" onClick={toggle}>More About Me </Button>
         <Fade in={fadeIn} tag="p">
           <p>I am a Software Developer from Singapore 🇸🇬 and I am an A Level grad.</p>
-          <p>I am currently learning Full Stack Web Development and exploring new technologies.</p>
+          <p>I am working on a Food Finder App.</p>
           <p>Feel free to take a look at my <a class="link hover-2" href='#/projects'>projects</a></p>
         </Fade>
         <h4>Currently I am ...</h4>
         <p className="lead">
-          Learning <a class="link hover-2" href='https://reactjs.org/'>React</a> and improving on my <a class="link hover-2" href='#/projects'>projects</a>
+          Learning <a class="link hover-2" href='https://reactjs.org/'>React</a> and maintaining <a class="link hover-2" href='#/projects'>projects</a>
         </p>
         <p className="lead">
           Watching videos on the tube ▶️
