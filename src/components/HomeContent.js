@@ -27,7 +27,8 @@ const HomeContent = () => {
         <Button color="link" onClick={toggle}>More About Me </Button>
         <Fade in={fadeIn} tag="p">
           <p>I am a Software Developer from Singapore 🇸🇬 and I am an A Level grad.</p>
-          <p>I am working on a Food Finder App.</p>
+          <p>I like to watch and read up on current affairs, economics, computer hardware and of course technology!</p>
+          <p>I am working on a Food Places API.</p>
           <p>Feel free to take a look at my <a class="link hover-2" href='#/projects'>projects</a></p>
         </Fade>
         <h4>Currently I am ...</h4>
