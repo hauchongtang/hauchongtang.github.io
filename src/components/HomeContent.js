@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState } from 'react'
 import {
-  Button, Fade
+  Button, Collapse
 } from 'reactstrap';
 import Typing from 'react-typing-animation';
 
@@ -15,22 +15,17 @@ const HomeContent = () => {
   return (
     <div className='container'>
       <div>
-        <Typing speed={100}>
-          <h1>Hello World!</h1>
-        </Typing>
-        <p>This is the output from my first program when I started out a few years ago.</p>
         <div>
-          <Typing speed={100}>
-            <h4>Hello! :D I am Hau Chong</h4>
+          <Typing speed={0.5}>
+            <h1>Hello! :D I am Hau Chong</h1>
           </Typing>
         </div>
-        <Button color="link" onClick={toggle}>More About Me </Button>
-        <Fade in={fadeIn} tag="p">
+        <Button color='link' class="link hover-2" onClick={toggle}>More About Me </Button>
+        <Collapse isOpen={fadeIn} tag="p">
           <p>I am a Software Developer from Singapore 🇸🇬 and I am an A Level grad.</p>
           <p>I like to watch and read up on current affairs, economics, computer hardware and of course technology!</p>
-          <p>I am working on a Food Places API.</p>
           <p>Feel free to take a look at my <a class="link hover-2" href='#/projects'>projects</a></p>
-        </Fade>
+        </Collapse>
         <h4>Currently I am ...</h4>
         <p className="lead">
           Learning <a class="link hover-2" href='https://reactjs.org/'>React</a> and maintaining <a class="link hover-2" href='#/projects'>projects</a>
