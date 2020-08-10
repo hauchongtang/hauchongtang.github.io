@@ -14,6 +14,11 @@ export default function Blogs() {
           </a>
         </p>
         <p className='lead'>
+          <a class='link hover-2' href='https://www.notion.so/Dark-Mode-Toggle-in-your-Webpage-31d76a29f8ae4cfbbe3f16262b87003d'>
+            Dark Mode Toggle on your webpage
+          </a>
+        </p>
+        <p className='lead'>
           <a class="link hover-2" href='#/portfolio-webpage'>Home</a>
         </p>
       </div>
