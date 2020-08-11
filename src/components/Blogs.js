@@ -19,6 +19,11 @@ export default function Blogs() {
           </a>
         </p>
         <p className='lead'>
+          <a class='link hover-2' href='https://www.notion.so/Configure-Jest-and-Supertest-for-tesing-APIs-Quick-Guide-Express-and-MongoDB-0158ba4367c447569a3383bb2d03d252'>
+            Testing REST APIs with Jest and Supertest(Quick Guide) - Express and MongoDB
+          </a>
+        </p>
+        <p className='lead'>
           <a class="link hover-2" href='#/portfolio-webpage'>Home</a>
         </p>
       </div>
