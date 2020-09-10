@@ -19,7 +19,7 @@ const Example = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <div className='container'>
-          <NavbarBrand href="#/portfolio-webpage">H.C</NavbarBrand>
+          <NavbarBrand href="#/">H.C</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
