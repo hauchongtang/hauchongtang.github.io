@@ -30,7 +30,7 @@ const Example = (props) => {
                 <NavLink href="#/projects">Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/thchong-code">GitHub</NavLink>
+                <NavLink href="https://github.com/hauchongtang">GitHub</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
