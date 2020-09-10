@@ -19,7 +19,7 @@ const Example = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <div className='container'>
-          <NavbarBrand href="#/portfolio-webpage">H.C</NavbarBrand>
+          <NavbarBrand href="#/">H.C</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -30,7 +30,7 @@ const Example = (props) => {
                 <NavLink href="#/projects">Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/thchong-code">GitHub</NavLink>
+                <NavLink href="https://github.com/hauchongtang">GitHub</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

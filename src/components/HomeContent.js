@@ -22,20 +22,19 @@ const HomeContent = () => {
         </div>
         <Button color='link' class="link hover-2" onClick={toggle}>More About Me </Button>
         <Collapse isOpen={fadeIn} tag="p">
-          <p>I am a Software Developer from Singapore 🇸🇬 and I am an A Level grad.</p>
-          <p>I like to watch and read up on current affairs, economics, computer hardware and of course technology!</p>
+          <p>I am a Software Developer from Singapore 🇸🇬.</p>
           <p>Feel free to take a look at my <a class="link hover-2" href='#/projects'>projects</a></p>
         </Collapse>
         <h4>Currently I am ...</h4>
         <p className="lead">
-          Learning <a class="link hover-2" href='https://reactjs.org/'>React</a> and maintaining <a class="link hover-2" href='#/projects'>projects</a>
+          maintaining <a class="link hover-2" href='#/projects'>projects</a>
         </p>
         <p className="lead">
           Watching videos on the tube ▶️
           </p>
         <h4>Find Me @</h4>
         <p className='lead'>
-          <a class="link hover-2" href='https://github.com/thchong-code/'>Github</a>&nbsp;&nbsp;
+          <a class="link hover-2" href='https://github.com/hauchonngtang/'>Github</a>&nbsp;&nbsp;
             <a class="link hover-2" href='mailto:hchtang2000@gmail.com'>Gmail</a>
         </p>
       </div>
