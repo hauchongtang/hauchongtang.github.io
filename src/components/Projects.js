@@ -41,18 +41,6 @@ export default function Projects() {
             <Card className='mb-4'>
               <CardBody>
                 <code>Javascript</code>
-                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/covid-dash'>COVID-19 DashBoard</a></h4>
-                <a class='link hover-2' href='https://hauchongtang.github.io/covid-dash/'>Demo</a>
-                <p id='content' className='lead'>
-                  Visualize COVID-19 data with chart.js
-              </p>
-                <div>
-                </div>
-              </CardBody>
-            </Card>
-            <Card className='mb-4'>
-              <CardBody>
-                <code>Javascript</code>
                 <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/ExpenseTracker'>expenseTRACKER</a></h4>
                 <a class='link hover-2' href='https://sheltered-refuge-87677.herokuapp.com/'>Demo</a>
                 <p id='content' className='lead'>Track spending and be in control to achieve your financial goals! <span>😄</span></p>
@@ -70,24 +58,12 @@ export default function Projects() {
             </Card>
             <Card className='mb-4'>
               <CardBody>
-                <code>Javascript</code>
-                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/food-rest-api'>food-rest-api</a></h4>
-                <a class='link hover-2' href='https://foodplaces-api.herokuapp.com/'>Demo</a>
-                <p id='content' className='lead'>
-                  A user input driven api to make records of local restaurants/ hawkers that are not well known on the internet
-              </p>
-                <div>
-                </div>
-              </CardBody>
-            </Card>
-            <Card className='mb-4'>
-              <CardBody>
                 <code>Python</code>
                 <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/github-follower-bot'>Github-Follower-Bot</a></h4>
                 <a class='link hover-2' href='https://github.com/hauchongtang/github-follower-bot'>Demo</a>
                 <p id='content' className='lead'>
                   Python bot to search for users and follow/ unfollow them (Selenium)
-              </p>
+                </p>
                 <div>
                 </div>
               </CardBody>
