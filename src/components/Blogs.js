@@ -24,7 +24,7 @@ export default function Blogs() {
           </a>
         </p>
         <p className='lead'>
-          <a class="link hover-2" href='#/portfolio-webpage'>Home</a>
+          <a class="link hover-2" href='/'>Home</a>
         </p>
       </div>
     </div>

@@ -41,9 +41,17 @@ export default function Projects() {
             <Card className='mb-4'>
               <CardBody>
                 <code>Javascript</code>
-                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/ExpenseTracker'>expenseTRACKER</a></h4>
-                <a class='link hover-2' href='https://sheltered-refuge-87677.herokuapp.com/'>Demo</a>
-                <p id='content' className='lead'>Track spending and be in control to achieve your financial goals! <span>😄</span></p>
+                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/covid-dash'>Covid Dashboard</a></h4>
+                <a class='link hover-2' href='https://hauchongtang.github.io/covid-dash/#/'>Demo</a>
+                <p id='content' className='lead'>An interactive dashboard w.r.t covid 19 trends worldwide <span>😄</span></p>
+              </CardBody>
+            </Card>
+            <Card className='mb-4'>
+              <CardBody>
+                <code>Javascript</code>
+                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/rainorshine'>Forecast</a></h4>
+                <a class='link hover-2' href='https://hauchongtang.github.io/rainorshine/'>Demo</a>
+                <p id='content' className='lead'>Did this for fun, it allows me to check the weather before I head out for a bike ride.</p>
               </CardBody>
             </Card>
             <Card className='mb-4'>
@@ -51,7 +59,7 @@ export default function Projects() {
                 <code>Python</code>
                 <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/autoSORT'>autoSORTER</a></h4>
                 <a class='link hover-2' href='https://github.com/hauchongtang/autoSORT'>Demo</a>
-                <p id='content' className='lead'>Sort files according to extensions by a simple drag and drop operation</p>
+                <p id='content' className='lead'>Sort files according to extensions by a simple drag and drop operation.</p>
                 <div>
                 </div>
               </CardBody>
@@ -62,7 +70,7 @@ export default function Projects() {
                 <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/github-follower-bot'>Github-Follower-Bot</a></h4>
                 <a class='link hover-2' href='https://github.com/hauchongtang/github-follower-bot'>Demo</a>
                 <p id='content' className='lead'>
-                  Python bot to search for users and follow/ unfollow them (Selenium)
+                  Python bot to search for users and follow/ unfollow them using Selenium.
                 </p>
                 <div>
                 </div>
@@ -74,7 +82,7 @@ export default function Projects() {
           Created with React. The repository for this webpage can be found <a class="link hover-2" href='https://github.com/hauchongtang/portfolio-webpage/'>here</a>
         </p>
         <p className='lead'>
-          <a class="link hover-2" href='#/portfolio-webpage'>Home</a>
+          <a class="link hover-2" href='/'>Home</a>
         </p>
       </div>
     </div>

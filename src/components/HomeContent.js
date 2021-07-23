@@ -17,7 +17,7 @@ const HomeContent = () => {
       <div>
         <div>
           <Typing speed={0.5}>
-            <h1>Hello! :D I am Hau Chong</h1>
+            <h1>Hello!</h1>
           </Typing>
         </div>
         <Button color='link' class="link hover-2" onClick={toggle}>More About Me </Button>
@@ -27,11 +27,11 @@ const HomeContent = () => {
         </Collapse>
         <h4>Currently I am ...</h4>
         <p className="lead">
-          Watching videos on the tube ▶️
+          🚴‍♂️ or 💻 or 🍿
         </p>
         <h4>Find Me @</h4>
         <p className='lead'>
-          <a class="link hover-2" href='https://github.com/hauchonngtang/'>Github</a>&nbsp;&nbsp;
+          <a class="link hover-2" href='https://github.com/hauchongtang/'>Github</a>&nbsp;&nbsp;
           <a class="link hover-2" href='mailto:hchtang2000@gmail.com'>Gmail</a>
         </p>
       </div>
