@@ -40,6 +40,16 @@ export default function Projects() {
           <Col md='12'>
             <Card className='mb-4'>
               <CardBody>
+                <code>Flutter, Dart</code>
+                <h4>
+                  <a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/todoapp'>To-Do App</a>
+                </h4>
+                <a class='link hover-2' href='https://github.com/hauchongtang/todoapp'>Demo</a>
+                <p id='content' className='lead'>Simple To-Do app</p>
+              </CardBody>
+            </Card>
+            <Card className='mb-4'>
+              <CardBody>
                 <code>Javascript</code>
                 <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/covid-dash'>Covid Dashboard</a></h4>
                 <a class='link hover-2' href='https://hauchongtang.github.io/covid-dash/#/'>Demo</a>
