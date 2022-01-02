@@ -32,7 +32,7 @@ const HomeContent = () => {
         <h4>Find Me @</h4>
         <p className='lead'>
           <a class="link hover-2" href='https://github.com/hauchongtang/'>Github</a>&nbsp;&nbsp;
-          <a class="link hover-2" href='mailto:hchtang2000@gmail.com'>Gmail</a>
+          <a class="link hover-2" href='mailto:thchong28@gmail.com'>Gmail</a>
         </p>
       </div>
     </div>

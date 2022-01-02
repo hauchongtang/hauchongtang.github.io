@@ -21,11 +21,11 @@ body.dark-mode #container {
 }
 
 .dark-mode {
-  background-color: #474747;
+  background-color: darkslateblue;
 }
 
 body.dark-mode nav.navbar.navbar-expand-md.navbar-light.bg-light {
-  background-color: #474747!important;
+  background-color: darkslateblue!important;
   color: white!important;
   transition: background-color 0.3s ease
 }
@@ -43,7 +43,7 @@ body.dark-mode .navbar-light .navbar-nav .nav-link {
 }
 
 body.dark-mode .card-body {
-  background-color: #474747;
+  background-color: darkslategray;
   transition: background-color 0.3s ease
 }
 
@@ -53,7 +53,8 @@ body.light-mode .card-body {
 }
 
 body.dark-mode .card {
-  border: 1px solid #f8f9fa;
+  border: 1px ridge #f8f9fa;
+  border-radius: 16px;
 }
 
 body.light-mode .card {

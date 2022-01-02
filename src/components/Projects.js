@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <div className='container'>
       <Navbar />
-      <h1>My Projects</h1>
+      <h1>Stuff I Made</h1>
       <div className='container'>
         <CardGroup>
           <Col md='12'>
