@@ -26,24 +26,36 @@ body.dark-mode #container {
 
 body.dark-mode nav.navbar.navbar-expand-md.navbar-light.bg-light {
   background-color: darkslateblue!important;
-  color: white!important;
-  transition: background-color 0.3s ease
+  transition: background-color color 0.3s ease-in-out
 }
 
 body.light-mode nav.navbar.navbar-expand-md.navbar-light.bg-light {
-  transition: background-color 0.3s ease
+  background-color: white;
+  transition: background-color color 0.3s ease
+}
+
+body.light-mode .navbar-light .navbar-nav .nav-link {
+  color: black;
+  margin: 6px;
+  padding: 3px;
+  font-weight: bold;
 }
 
 body.dark-mode .navbar-light .navbar-brand {
   color: white!important
 }
 
-body.dark-mode .navbar-light .navbar-nav .nav-link {
-  color: white!important
+body.dark-mode .navbar-light .navbar-nav .nav-link{
+  color: white;
+  margin: 6px;
+  padding: 3px;
+  font-weight: bold;
 }
 
+
+
 body.dark-mode .card-body {
-  background-color: darkslategray;
+  background-color: slateblue;
   transition: background-color 0.3s ease
 }
 
@@ -54,7 +66,6 @@ body.light-mode .card-body {
 
 body.dark-mode .card {
   border: 1px ridge #f8f9fa;
-  border-radius: 16px;
 }
 
 body.light-mode .card {
