@@ -33,8 +33,8 @@ export default function Projects() {
 
   return (
     <div className='container'>
-      <Navbar />
-      <h1>Stuff I Made</h1>
+      <Navbar/>
+      <h1>Stuff I Made.</h1>
       <div className='container'>
         <CardGroup>
           <Col md='12'>

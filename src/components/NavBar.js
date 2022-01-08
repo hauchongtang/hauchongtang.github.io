@@ -37,10 +37,10 @@ const Example = (props) => {
               <NavItem>
                 <NavLink href="https://github.com/hauchongtang">GitHub</NavLink>
               </NavItem>
+              <NavItem><DarkModeToggle/></NavItem>
             </Nav>
           </Collapse>
         </div>
-        <DarkModeToggle />
       </Navbar>
     </div>
   );
