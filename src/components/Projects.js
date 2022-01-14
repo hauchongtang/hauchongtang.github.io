@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Navbar from './NavBar'
-import { Card, Button, CardImg, CardGroup, CardBody, Popover, PopoverBody, Col } from 'reactstrap'
+import { CardGroup, Col } from 'reactstrap'
 import ProjectCard from './projectcard/ProjectCard';
 
 export default function Projects() {
@@ -39,39 +39,39 @@ export default function Projects() {
       <div className='container'>
         <CardGroup>
           <Col md='12'>
-            <ProjectCard 
-              codesArr={["Flutter", "Dart"]} 
-              linkObj={{ github: "https://github.com/hauchongtang/todoapp", demo: 'https://github.com/hauchongtang/todoapp' }} 
-              descStr={"Simple To-Do app on Android"} 
-              title={"To-Do App"} 
+            <ProjectCard
+              codesArr={["Flutter", "Dart"]}
+              linkObj={{ github: "https://github.com/hauchongtang/todoapp", demo: 'https://github.com/hauchongtang/todoapp' }}
+              descStr={"Simple To-Do app on Android"}
+              title={"To-Do App"}
             />
-            <ProjectCard 
-              codesArr={["Javascript"]} 
-              linkObj={{ github: "https://github.com/hauchongtang/covid-dash", demo: 'https://hauchongtang.github.io/covid-dash/' }} 
-              descStr={"Simple interactive dashboard that displays key covid trends since end-2019."} 
-              title={"Covid Dashboard"} 
+            <ProjectCard
+              codesArr={["Javascript"]}
+              linkObj={{ github: "https://github.com/hauchongtang/covid-dash", demo: 'https://hauchongtang.github.io/covid-dash/' }}
+              descStr={"Simple interactive dashboard that displays key covid trends since end-2019."}
+              title={"Covid Dashboard"}
             />
-            <ProjectCard 
-              codesArr={["Javascript"]} 
-              linkObj={{ github: "https://github.com/hauchongtang/rainorshine", demo: 'https://hauchongtang.github.io/rainorshine/' }} 
-              descStr={"Did this for fun, allows me to quickly check the weather before I head out for a run/ ride"} 
-              title={"Forecast Visualization"} 
+            <ProjectCard
+              codesArr={["Javascript"]}
+              linkObj={{ github: "https://github.com/hauchongtang/rainorshine", demo: 'https://hauchongtang.github.io/rainorshine/' }}
+              descStr={"Did this for fun, allows me to quickly check the weather before I head out for a run/ ride"}
+              title={"Forecast Visualization"}
             />
-            <ProjectCard 
-              codesArr={["Javascript"]} 
-              linkObj={{ github: "https://github.com/hauchongtang/ExpenseTracker", demo: "https://sheltered-refuge-87677.herokuapp.com/" }} 
-              descStr={"ExpenseTracker App :)"} 
-              title={"Expense Tracker"} 
+            <ProjectCard
+              codesArr={["Javascript"]}
+              linkObj={{ github: "https://github.com/hauchongtang/ExpenseTracker", demo: "https://sheltered-refuge-87677.herokuapp.com/" }}
+              descStr={"ExpenseTracker App :)"}
+              title={"Expense Tracker"}
             />
             <ProjectCard
               codesArr={["Python"]}
-              linkObj={{github: "https://github.com/hauchongtang/autoSORT", demo: "https://github.com/hauchongtang/autoSORT"}}
+              linkObj={{ github: "https://github.com/hauchongtang/autoSORT", demo: "https://github.com/hauchongtang/autoSORT" }}
               descStr={"Sort files according to extensions by simple drag and drop operation while script is running."}
               title={"autoSORTER"}
             />
             <ProjectCard
               codesArr={["Python"]}
-              linkObj={{github: "https://github.com/hauchongtang/github-follower-bot", demo: "https://github.com/hauchongtang/github-follower-bot"}}
+              linkObj={{ github: "https://github.com/hauchongtang/github-follower-bot", demo: "https://github.com/hauchongtang/github-follower-bot" }}
               descStr={"Search for users and follow/unfollow using Selenium."}
               title={"Github-Follower-Bot"}
             />
