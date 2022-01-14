@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './NavBar'
 import { Card, Button, CardImg, CardGroup, CardBody, Popover, PopoverBody, Col } from 'reactstrap'
+import ProjectCard from './projectcard/ProjectCard';
 
 export default function Projects() {
   const [popover, setPopover] = useState(false)
@@ -33,59 +34,47 @@ export default function Projects() {
 
   return (
     <div className='container'>
-      <Navbar/>
+      <Navbar />
       <h1>Stuff I Made.</h1>
       <div className='container'>
         <CardGroup>
           <Col md='12'>
-            <Card className='mb-4'>
-              <CardBody>
-                <code>Flutter, Dart</code>
-                <h4>
-                  <a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/todoapp'>To-Do App</a>
-                </h4>
-                <a class='link hover-2' href='https://github.com/hauchongtang/todoapp'>Demo</a>
-                <p id='content' className='lead'>Simple To-Do app</p>
-              </CardBody>
-            </Card>
-            <Card className='mb-4'>
-              <CardBody>
-                <code>Javascript</code>
-                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/covid-dash'>Covid Dashboard</a></h4>
-                <a class='link hover-2' href='https://hauchongtang.github.io/covid-dash/#/'>Demo</a>
-                <p id='content' className='lead'>An interactive dashboard w.r.t covid 19 trends worldwide <span>😄</span></p>
-              </CardBody>
-            </Card>
-            <Card className='mb-4'>
-              <CardBody>
-                <code>Javascript</code>
-                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/rainorshine'>Forecast</a></h4>
-                <a class='link hover-2' href='https://hauchongtang.github.io/rainorshine/'>Demo</a>
-                <p id='content' className='lead'>Did this for fun, it allows me to check the weather before I head out for a bike ride.</p>
-              </CardBody>
-            </Card>
-            <Card className='mb-4'>
-              <CardBody>
-                <code>Python</code>
-                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/autoSORT'>autoSORTER</a></h4>
-                <a class='link hover-2' href='https://github.com/hauchongtang/autoSORT'>Demo</a>
-                <p id='content' className='lead'>Sort files according to extensions by a simple drag and drop operation.</p>
-                <div>
-                </div>
-              </CardBody>
-            </Card>
-            <Card className='mb-4'>
-              <CardBody>
-                <code>Python</code>
-                <h4><a class="link hover-2" id='project-link' href='https://github.com/hauchongtang/github-follower-bot'>Github-Follower-Bot</a></h4>
-                <a class='link hover-2' href='https://github.com/hauchongtang/github-follower-bot'>Demo</a>
-                <p id='content' className='lead'>
-                  Python bot to search for users and follow/ unfollow them using Selenium.
-                </p>
-                <div>
-                </div>
-              </CardBody>
-            </Card>
+            <ProjectCard 
+              codesArr={["Flutter", "Dart"]} 
+              linkObj={{ github: "https://github.com/hauchongtang/todoapp", demo: 'https://github.com/hauchongtang/todoapp' }} 
+              descStr={"Simple To-Do app on Android"} 
+              title={"To-Do App"} 
+            />
+            <ProjectCard 
+              codesArr={["Javascript"]} 
+              linkObj={{ github: "https://github.com/hauchongtang/covid-dash", demo: 'https://hauchongtang.github.io/covid-dash/' }} 
+              descStr={"Simple interactive dashboard that displays key covid trends since end-2019."} 
+              title={"Covid Dashboard"} 
+            />
+            <ProjectCard 
+              codesArr={["Javascript"]} 
+              linkObj={{ github: "https://github.com/hauchongtang/rainorshine", demo: 'https://hauchongtang.github.io/rainorshine/' }} 
+              descStr={"Did this for fun, allows me to quickly check the weather before I head out for a run/ ride"} 
+              title={"Forecast Visualization"} 
+            />
+            <ProjectCard 
+              codesArr={["Javascript"]} 
+              linkObj={{ github: "https://github.com/hauchongtang/ExpenseTracker", demo: "https://sheltered-refuge-87677.herokuapp.com/" }} 
+              descStr={"ExpenseTracker App :)"} 
+              title={"Expense Tracker"} 
+            />
+            <ProjectCard
+              codesArr={["Python"]}
+              linkObj={{github: "https://github.com/hauchongtang/autoSORT", demo: "https://github.com/hauchongtang/autoSORT"}}
+              descStr={"Sort files according to extensions by simple drag and drop operation while script is running."}
+              title={"autoSORTER"}
+            />
+            <ProjectCard
+              codesArr={["Python"]}
+              linkObj={{github: "https://github.com/hauchongtang/github-follower-bot", demo: "https://github.com/hauchongtang/github-follower-bot"}}
+              descStr={"Search for users and follow/unfollow using Selenium."}
+              title={"Github-Follower-Bot"}
+            />
           </Col>
         </CardGroup>
         <p className='lead'>
