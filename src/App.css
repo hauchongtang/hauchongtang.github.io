@@ -57,6 +57,8 @@ body.light-mode .navbar-light .navbar-nav .nav-link {
   margin: 6px;
   padding: 3px;
   font-weight: bold;
+  border-radius: 16px;
+  transition: 0.6s;
 }
 
 body.dark-mode .navbar-light .navbar-brand {
@@ -68,12 +70,15 @@ body.dark-mode .navbar-light .navbar-nav .nav-link{
   margin: 6px;
   padding: 3px;
   font-weight: bold;
+  border-radius: 16px;
+  transition: 0.6s;
 }
 
 .dark-mode .nav-link:hover {
   background-color: beige;
   border-radius: 16px;
   color: darkslateblue!important;
+  transition: 0.3s;
 }
 
 .light-mode .nav-link:hover {
@@ -147,4 +152,17 @@ body.dark-mode a {
 
 a.hover-2:hover {
   background-size: 2px 50px;
+}
+
+.btn {
+  border-radius: 64px;
+  background-color: transparent;
+  color: black;
+  margin: 4px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: slateblue;
+  transition: 0.3s ease;
 }
