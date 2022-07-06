@@ -1,26 +1,51 @@
 import React from "react";
 import Box from "@mui/material/Box";
+
 import DrawerAppBar from "../Nav/NavBar";
 import FrontPage from "./FrontPage";
 import Experience from "../Experience/Experience";
-import { IconButton } from "@mui/material";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import ArrowDown from "./ArrowDown";
+import Projects from "../Projects/Projects"
+import FooterComponent from "./Footer";
 
 const HomePage = () => {
   return (
-    <Box sx={{ backgroundColor: '#171717' }}>
+    <>
+    <Box sx={{ backgroundColor: '#212121', width: '100%' }}>
       <DrawerAppBar />
       <FrontPage />
-      <Box textAlign='center' marginTop='-10%'>
-        <IconButton
-          sx={{ backgroundColor: 'grey', color: 'white' }}
-          href='#experience'
-        >
-          <KeyboardArrowDownIcon />
-        </IconButton>
-      </Box>
+      <ArrowDown href="#experience" marginTop='-5vh' />
       <Experience />
-    </Box>
+      <Box><ul class="circles" style={{ height: '200vh' }}>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </Box>
+      <Projects />
+      <FooterComponent />
+      <Box><ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </Box>
+    </Box> 
+    </>
   )
 }
 

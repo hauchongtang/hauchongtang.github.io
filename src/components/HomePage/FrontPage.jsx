@@ -1,14 +1,15 @@
-import { CardMedia, Grid, Box, Typography } from "@mui/material";
+import { CardMedia, Grid, Box, Typography, ButtonGroup, Button } from "@mui/material";
+import { GitHub, LinkedIn, Email } from "@mui/icons-material";
 import React from "react";
 
 const FrontPage = () => {
   return (
-    <Grid container height={{ xs: '90vh', sm: 'auto', md: 'auto', lg: '100vh' }}>
+    <Grid container height={{ xs: '90vh', sm: 'auto', md: 'auto', lg: '100vh' }}> 
       <Grid item xs={12} sm={6} md={6}>
         <Box
           display='flex'
           justifyContent='center'
-          my={{ xs: '0vh', sm: '20%', md: '20%', lg: '20vh' }}
+          my={{ xs: '0vh', sm: '50%', md: '20%', lg: '22vh' }}
         >
           <CardMedia
             component='img'
@@ -29,7 +30,7 @@ const FrontPage = () => {
       <Grid item xs={12} sm={6} md={6}>
         <Box
           textAlign={{ xs: 'left', sm: 'center', md: 'left' }}
-          my={{ xs: '5%', sm: '15%', md: '20%', lg: '35%' }}
+          my={{ xs: '5%', sm: '15%', md: '20%', lg: '30%' }}
           mx={{ xs: '10%' }}
         >
           <Typography
@@ -52,10 +53,11 @@ const FrontPage = () => {
           </Typography>
           <Typography
             variant='h5'
-            fontWeight={400}
-            fontSize={{ xs: 20, sm: 16, md: 18, lg: 22 }}
+            fontWeight={600}
+            fontSize={{ xs: 14, sm: 16, md: 18, lg: 22 }}
             py={1}
-            color='white'
+            color='#0fb'
+            sx={{ textTransform: 'uppercase' }}
           >
             Y2 Computer Science Student @NUS
           </Typography>
@@ -66,8 +68,19 @@ const FrontPage = () => {
             py={4}
             color='white'
           >
-            "Always either at on PC learning new stuff or out on an adventure. :)"
+            "Self-directed learner, Always exploring new technologies."
           </Typography>
+          <ButtonGroup aria-label="large button group">
+            <Button variant='text' href='https://github.com/hauchongtang'>
+              <GitHub sx={{ fontSize: { xs: 38, md: 50 }, color: 'white' }}/>
+            </Button>
+            <Button variant='text' href='https://www.linkedin.com/in/tang-hau-chong-8a93101b6/'>
+              <LinkedIn sx={{ fontSize: { xs: 42, md: 54 }, color: 'white' }}/>
+            </Button>
+            <Button variant='text' href='mailto:thchong28@gmail.com'>
+              <Email sx={{ fontSize: { xs: 46, md: 56 }, color: 'white' }}/>
+            </Button>
+          </ButtonGroup>
         </Box>
       </Grid>
     </Grid>
