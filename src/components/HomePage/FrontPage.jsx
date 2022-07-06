@@ -4,7 +4,7 @@ import React from "react";
 
 const FrontPage = () => {
   return (
-    <Grid container height={{ xs: '90vh', sm: 'auto', md: 'auto', lg: '100vh' }}> 
+    <Grid container height={{ xs: '90vh', sm: 'auto', md: 'auto', lg: '100vh' }} zIndex={9999}> 
       <Grid item xs={12} sm={6} md={6}>
         <Box
           display='flex'
@@ -70,7 +70,7 @@ const FrontPage = () => {
           >
             "Self-directed learner, Always exploring new technologies."
           </Typography>
-          <ButtonGroup aria-label="large button group">
+          <ButtonGroup aria-label="large button group" sx={{ zIndex: 9999}}>
             <Button variant='text' href='https://github.com/hauchongtang'>
               <GitHub sx={{ fontSize: { xs: 38, md: 50 }, color: 'white' }}/>
             </Button>

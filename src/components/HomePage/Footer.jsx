@@ -18,7 +18,7 @@ const FooterComponent = () => {
           flexDirection='row'
           justifyContent='space-between'
         >
-          <Typography variant="h3" fontSize={{ xs: 10, md: 18 }} sx={{ paddingTop: { xs: 2, md: 3 } }} color='white' >
+          <Typography variant="h3" fontSize={{ xs: 12, md: 18 }} sx={{ paddingTop: { xs: 2, md: 3 } }} color='white' >
             This webpage is built using MaterialUI & React.
           </Typography> 
           <ButtonGroup>
@@ -33,7 +33,7 @@ const FooterComponent = () => {
             </Button>
           </ButtonGroup>
         </Box>
-        <Typography variant="h3" fontSize={{ xs: 10, md: 18 }} sx={{ paddingTop: 2 }} color='white'>Ⓒ Tang Hau Chong</Typography>
+        <Typography variant="h3" fontSize={{ xs: 12, md: 18 }} sx={{ paddingTop: 2 }} color='white'>Ⓒ Tang Hau Chong</Typography>
       </Box>
     </footer>
   )

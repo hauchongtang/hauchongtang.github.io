@@ -5,15 +5,17 @@ html {
 body {
   margin: 0px;
   font-family: 'Lato';
+  background-color: '#212121';
 }
 
 .circles{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 90vw;
+    width: 0.001vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: visible;
+    z-index: 1;
 }
 
 .circles li{
@@ -25,83 +27,93 @@ body {
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
-    
+    z-index: -1;
 }
 
 .circles li:nth-child(1){
-    left: 25%;
+    left: 25vw;
     width: 80px;
     height: 80px;
     animation-delay: 0s;
+    z-index: -1;
 }
 
 
 .circles li:nth-child(2){
-    left: 10%;
+    left: 10vw;
     width: 20px;
     height: 20px;
     animation-delay: 2s;
     animation-duration: 12s;
+    z-index: -1;
 }
 
 .circles li:nth-child(3){
-    left: 70%;
+    left: 70vw;
     width: 20px;
     height: 20px;
     animation-delay: 4s;
+    z-index: -1;
 }
 
 .circles li:nth-child(4){
-    left: 40%;
+    left: 40vw;
     width: 60px;
     height: 60px;
     animation-delay: 0s;
     animation-duration: 18s;
+    z-index: -1;
 }
 
 .circles li:nth-child(5){
-    left: 65%;
+    left: 65vw;
     width: 20px;
     height: 20px;
     animation-delay: 0s;
+    z-index: -1;
 }
 
 .circles li:nth-child(6){
-    left: 75%;
+    left: 75vw;
     width: 110px;
     height: 110px;
     animation-delay: 3s;
+    z-index: -1;
 }
 
 .circles li:nth-child(7){
-    left: 35%;
+    left: 35vw;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
+    z-index: -1;
 }
 
 .circles li:nth-child(8){
-    left: 50%;
+    left: 50vw;
     width: 25px;
     height: 25px;
     animation-delay: 15s;
     animation-duration: 45s;
+    z-index: -1;
 }
 
 .circles li:nth-child(9){
-    left: 20%;
+    left: 20vw;
     width: 15px;
     height: 15px;
     animation-delay: 2s;
     animation-duration: 35s;
+    z-index: -1;
 }
 
 .circles li:nth-child(10){
-    left: 85%;
+    left: 85vw;
     width: 150px;
     height: 150px;
     animation-delay: 0s;
     animation-duration: 11s;
+    z-index: -1;
 }
 
 
@@ -115,7 +127,7 @@ body {
     }
 
     100%{
-        transform: translateY(-1500px) rotate(720deg);
+        transform: translateY(-2500px) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
     }

@@ -27,7 +27,7 @@ function DrawerAppBar(props) {
   };
 
   return (
-    <Box sx={{ display: 'block' }}>
+    <Box sx={{ display: 'block', zIndex: 9999 }}>
       <AppBar 
         component="nav"
         position='static'
