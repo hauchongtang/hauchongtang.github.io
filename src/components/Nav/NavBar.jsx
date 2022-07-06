@@ -64,13 +64,13 @@ function DrawerAppBar(props) {
         component="nav"
         position='static'
         elevation={0}
-        sx={{ backgroundColor: '#D6EFFB' }}
+        sx={{ backgroundColor: '#171717' }}
       >
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}> 
           <Box>
             <Typography
               variant='h5'
-              color='#03045E'
+              color='white'
               fontWeight={700}
             >
               HC
@@ -78,7 +78,7 @@ function DrawerAppBar(props) {
           </Box>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navlinkData.map((item) => (
-              <Button href={item.href} key={item.text} sx={{ color: '#03045E' }}>
+              <Button href={item.href} key={item.text} sx={{ color: 'white' }}>
                 <Typography variant='button' fontWeight={600}>{item.text}</Typography>
               </Button>
             ))}
@@ -87,7 +87,7 @@ function DrawerAppBar(props) {
             aria-label="open drawer"
             edge='end'
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' }, marginRight: '-8px' }}
+            sx={{ mr: 2, display: { sm: 'none' }, marginRight: '-8px', color: 'white' }}
           >
             <MenuIcon />
           </IconButton>
