@@ -1,6 +1,6 @@
 export const projectData = [
   {
-    description: 'SPLAT! (WIP)',
+    description: 'SPLAT! (Desktop View)',
     demoLink: 'https://splatapp-6c307.web.app',
     repoLink: 'https://github.com/hauchongtang/studytgt',
     descData: [
@@ -64,6 +64,29 @@ export const projectData = [
         backgroundColor: '#61DBFB',
         textColor: 'grey',
       },
+    ]
+  },
+  {
+    description: 'Expense Tracker',
+    demoLink: 'https://sheltered-refuge-87677.herokuapp.com/',
+    repoLink: 'https://github.com/hauchongtang/ExpenseTracker',
+    descData: [
+      "A simple expense tracker that allows one to keep track of their expenses.",
+      "This is my first attempt at a full stack project."
+    ],
+    techData: [
+      {
+        href: 'https://www.javascript.com/',
+        label: 'Javascript',
+        backgroundColor: 'lightgreen',
+        textColor: 'grey'
+      },
+      {
+        href: 'https://reactjs.org/',
+        label: 'React',
+        backgroundColor: '#61DBFB',
+        textColor: 'grey',
+      },
       {
         href: 'https://expressjs.com/',
         label: 'ExpressJS',
@@ -104,8 +127,8 @@ export const projectData = [
   },
   {
     description: 'Covid Dashboard',
-    demoLink: 'https://github.com/hauchongtang/covid-dash/',
-    repoLink: 'https://hauchongtang.github.io/covid-dash/',
+    demoLink: 'https://hauchongtang.github.io/covid-dash/',
+    repoLink: 'https://github.com/hauchongtang/covid-dash/',
     descData: [
       "Simple interactive dashboard that displays key COVID-19 trends globally.",
       "Data is fetched from various public endpoints.",

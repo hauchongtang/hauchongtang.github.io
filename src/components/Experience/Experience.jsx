@@ -2,7 +2,6 @@ import React from "react";
 import { Box, Card, Grid, Typography } from "@mui/material";
 import ExperienceCard from "./ExperienceCard";
 import { companyData, descData, technologyData } from "../../data/experienceData";
-import ArrowDown from "../HomePage/ArrowDown";
 
 const Experience = () => {
   return (
@@ -56,12 +55,6 @@ const Experience = () => {
             </Grid>
           </Grid>
         </Box>
-      </Box>
-      <Box
-        py={{ xs: 1.5, md: '-32px' }}
-        paddingBottom={{ md: '-32px' }}
-      >
-        <ArrowDown href='#projects' />
       </Box>
     </>
   )

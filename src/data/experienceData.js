@@ -6,10 +6,10 @@ export const companyData = {
 }
 
 export const descData = [
-  `Developed the company's landing page & merged it with the exisiting portal, which allowed new visitors / users to learn more about uWave's
-  philosophy, content and interface.`,
-  `Converted landing page to be Server Side Rendered (SSR) and enhanced the overall Search Engine Optimization (SEO) capability.
-                              which resulted in a higher rate of being identified by search engine crawlers.`,
+  `Developed a dashboard to enable posts content tagging with Machine Learning capability using next.js. The dashboard feeds tags to 
+    an endpoint and allowed for better search result accuracy and matching in the uWave application.
+  `,
+  `Developed and maintained the company's landing and discussions webpage`,
   `Deployed and configured Kubernetes pods and Docker configuration for deployment into Kubernetes cluster via Gitlab's CICD process.`,
   `Created some API endpoints with Go.`
 ]

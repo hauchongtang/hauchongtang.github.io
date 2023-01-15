@@ -7,43 +7,32 @@ import Experience from "../Experience/Experience";
 import ArrowDown from "./ArrowDown";
 import Projects from "../Projects/Projects"
 import FooterComponent from "./Footer";
+import TimelinePage from "../Recents/TimelinePage";
 
 const HomePage = () => {
   return (
     <>
     <Box sx={{ backgroundColor: '#212121', width: '100%' }}>
-      <DrawerAppBar />
+      <DrawerAppBar /> 
       <FrontPage />
       <ArrowDown href="#experience" marginTop='-5vh' />
+      <Box zIndex={999}><ul className="circles" style={{ height: '100vh', zIndex: 999 }}>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </Box>
+      <TimelinePage/>
       <Experience />
-      <Box><ul class="circles" style={{ height: '200vh' }}>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      </Box>
       <Projects />
-      <FooterComponent />
-      <Box><ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      </Box>
+      <FooterComponent />  
     </Box> 
     </>
   )
