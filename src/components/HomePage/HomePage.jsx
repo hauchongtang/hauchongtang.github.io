@@ -7,6 +7,7 @@ import Experience from "../Experience/Experience";
 import ArrowDown from "./ArrowDown";
 import Projects from "../Projects/Projects"
 import FooterComponent from "./Footer";
+import TimelinePage from "../Recents/TimelinePage";
 
 const HomePage = () => {
   return (
@@ -28,6 +29,7 @@ const HomePage = () => {
         <li></li>
       </ul>
       </Box>
+      <TimelinePage/>
       <Experience />
       <Projects />
       <FooterComponent />  
