@@ -178,3 +178,26 @@ export const projectData = [
     ]
   }
 ]
+
+export const hackathonData = [
+  {
+    description: 'HacknRoll 2023',
+    demoLink: 'https://devpost.com/software/water-boi',
+    repoLink: 'https://github.com/hauchongtang/WaterBoi',
+    descData: ['Water tracking app which aims to encourage user to consume more water'],
+    techData: [
+      {
+        href: 'https://www.javascript.com/',
+        label: 'Javascript',
+        backgroundColor: 'lightgreen',
+        textColor: 'grey'
+      },
+      {
+        href: 'https://reactnative.dev/',
+        label: 'React Native',
+        backgroundColor: '#61DBFB',
+        textColor: 'grey',
+      },
+    ]
+  }
+]

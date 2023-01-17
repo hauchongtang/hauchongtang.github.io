@@ -32,7 +32,7 @@ function DrawerAppBar(props) {
         component="nav"
         position='static'
         elevation={0}
-        sx={{ backgroundColor: '#212121' }}
+        sx={{ backgroundColor: 'inherit' }}
       >
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}> 
           <Box>

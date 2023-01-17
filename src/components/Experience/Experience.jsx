@@ -8,8 +8,8 @@ const Experience = () => {
     <>
       <Box
         id='experience'
-        height={{ xs: 'auto', md: '100vh' }}
-        sx={{ backgroundColor: '#212121' }}
+        height={{ xs: 'auto' }}
+        sx={{ backgroundColor: 'inherit' }}
       >
         <Box
           py={{ xs: 6 }}

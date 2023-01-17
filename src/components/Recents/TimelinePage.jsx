@@ -32,7 +32,7 @@ const TimelinePage = () => {
   }, [])
 
   return (
-    <Grid container>
+    <Grid container id='recents'>
       <Grid item xs={12} md={5}>
       <Box
         py={{ xs: 6 }}
@@ -41,7 +41,7 @@ const TimelinePage = () => {
         <Typography
           variant='h3'
           fontSize={{ xs: 28, sm: 44, md: 48, lg: 52 }}
-          sx={{ color: '#DE1F87' }}
+          sx={{ color: '#0fb' }}
           fontWeight={600}
         >
           Recent Activity

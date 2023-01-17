@@ -68,7 +68,7 @@ const FrontPage = () => {
             py={4}
             color='white'
           >
-            "Self-directed learner, Always exploring new technologies."
+            Current status: In school
           </Typography>
           <ButtonGroup aria-label="large button group" sx={{ zIndex: 9999}}>
             <Button variant='text' href='https://github.com/hauchongtang'>

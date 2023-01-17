@@ -12,10 +12,10 @@ import TimelinePage from "../Recents/TimelinePage";
 const HomePage = () => {
   return (
     <>
-    <Box sx={{ backgroundColor: '#212121', width: '100%' }}>
+    <Box sx={{ background: '-webkit-linear-gradient(#283048, #859398)', width: '100%' }}>
       <DrawerAppBar /> 
       <FrontPage />
-      <ArrowDown href="#experience" marginTop='-5vh' />
+      <ArrowDown href="#recents" marginTop='-5vh' />
       <Box zIndex={999}><ul className="circles" style={{ height: '100vh', zIndex: 999 }}>
         <li></li>
         <li></li>
