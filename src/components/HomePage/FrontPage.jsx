@@ -59,7 +59,7 @@ const FrontPage = () => {
             color='#0fb'
             sx={{ textTransform: 'uppercase' }}
           >
-            Y2 Computer Science Student @NUS
+            Y3 Computer Science Student @NUS
           </Typography>
           <Typography
             variant='h6'

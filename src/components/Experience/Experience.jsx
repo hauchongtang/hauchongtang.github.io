@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Card, Grid, Typography } from "@mui/material";
 import ExperienceCard from "./ExperienceCard";
-import { companyData, descData, technologyData } from "../../data/experienceData";
+import { experienceDataList } from "../../data/experienceData";
 
 const Experience = () => {
   return (
@@ -26,33 +26,21 @@ const Experience = () => {
         </Box>
         <Box>
           <Grid container spacing={4} px={4}>
-            <Grid item xs={12} sm={12} md={6}>
-              <Box>
-                <ExperienceCard
-                  jobTitle='Software Engineer Intern'
-                  duration="May 2022 - August 2022"
-                  companyData={companyData}
-                  descData={descData}
-                  technologyData={technologyData}
-                />
-              </Box>
-            </Grid>
-            <Grid item xs={12} sm={12} md={6}>
-              <Card
-                sx={{ borderRadius: '17px' }}
-
-              >
-                <Box height='20vh' textAlign='center'>
-                  <Box height='7.5vh' />
-                  <Typography
-                    fontSize={24}
-                    fontWeight={600}
-                  >
-                    Coming soon...
-                  </Typography>
-                </Box>
-              </Card>
-            </Grid>
+            {experienceDataList.map((experienceData, index) => {
+              return (
+                <Grid item xs={12} sm={12} md={6} key={index}>
+                  <Box>
+                    <ExperienceCard
+                      jobTitle={experienceData.jobTitle}
+                      duration={experienceData.duration}
+                      companyData={experienceData.company}
+                      descData={experienceData.desc}
+                      technologyData={experienceData.technology}
+                    />
+                  </Box>
+                </Grid>
+              )
+            })}
           </Grid>
         </Box>
       </Box>
